@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
     let settings = {
         "async": true,
@@ -6,9 +7,9 @@ $(document).ready(function () {
         "method": "GET"
     };
     $.ajax(settings).done(function (response) {
-       /* populateData(response,1);
+       /!* populateData(response,1);
         populateData(response,0.5);
-        populateData(response,0.05);*/
+        populateData(response,0.05);*!/
     });
 
     function populateData(response,gameValue) {
@@ -32,3 +33,4 @@ $(document).ready(function () {
     }
 
 });
+*/
