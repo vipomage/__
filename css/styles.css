@@ -1,0 +1,241 @@
+@media screen and (max-width: 640px ) {
+    div.container {
+        padding: 80px 20px;
+        }
+    .list-group-item{
+        margin: auto 15px;
+        padding: 0;
+        list-style: none;
+        }
+    .list-group-item ul{
+        margin: 15px;
+
+        padding: 10px;
+        }
+    }
+@media screen and (max-width: 640px) {
+
+    }
+
+div.container {
+    padding: 80px 20px;
+    }
+.list-group-item{
+    margin: auto 15px;
+    padding: 0;
+    list-style: none;
+    }
+.list-group-item ul{
+    margin: 15px;
+
+    padding: 10px;
+    }
+
+
+body {
+    font: 700 15px/1.8 Lato, sans-serif;
+    color: #777777;
+    letter-spacing: 0.5px;
+    }
+
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111111;
+    }
+
+.container {
+    padding: 80px 120px;
+    text-align: center
+    }
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+    }
+
+.person:hover {
+    border-color: #F1F1F1;
+    }
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    }
+
+.carousel-caption h3 {
+    color: #FFFFFF !important;
+    }
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        }
+    }
+
+.bg-1 {
+    background: url("../img/p2pbg.jpg");
+    color: #BDBDBD;
+    }
+
+.bg-1 h3 {
+    color: #FFFFFF;
+    }
+
+.bg-1 p {
+    font-style: italic;
+    }
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    }
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    }
+
+.list-group, .list-group li.list-group-item:nth-of-type(1) {
+    border-radius: 15px 15px 0 0;
+    }
+
+.list-group, li.list-group-item:nth-of-type(3) {
+    border-radius: 0 0 15px 15px;
+    }
+
+.thumbnail {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    }
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555555;
+    }
+
+.btn {
+    background-color: #333333;
+    color: #F1F1F1;
+    border-radius: 0;
+    transition: .2s;
+    }
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333333;
+    color: white;
+    }
+
+.modal-header, h4, .close {
+    background-color: #333333;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 30px;
+    }
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+    }
+
+.nav-tabs li a {
+    color: #777777;
+    }
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    }
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2D2D30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+
+    }
+
+.navbar li a, .navbar .navbar-brand {
+    color: #D5D5D5 !important;
+    text-align: center;
+    margin: auto;
+    }
+
+.navbar-nav li a:hover {
+    color: #FFFFFF !important;
+    }
+
+.navbar-nav li.active a {
+    color: #FFFFFF !important;
+    background-color: #29292C !important;
+    }
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    }
+
+.open .dropdown-toggle {
+    color: #FFFFFF;
+    background-color: #555555 !important;
+    }
+
+.dropdown-menu li a {
+    color: #000000 !important;
+    }
+
+.dropdown-menu li a:hover {
+    background-color: red !important;
+    }
+
+footer {
+    background-color: #2D2D30;
+    color: #F5F5F5;
+    padding: 32px;
+    }
+
+footer a {
+    color: #F5F5F5;
+    }
+
+footer a:hover {
+    color: #777777;
+    text-decoration: none;
+    }
+
+.form-control {
+    border-radius: 0;
+    }
+
+textarea {
+    resize: none;
+    }
+
+.address {
+    overflow: hidden;
+    }
+
+h2.text-center {
+    color: white;
+    text-shadow: 5px 5px 5px 5px black;
+    font-weight: 900;
+    vertical-align: center;
+    height: 40px;
+    border-radius: 20px;
+    }
+
+.entry-section {
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(52, 62, 89, 0.83);
+    }
