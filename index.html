@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>${pageName}</title>
+    <title>7xxx.club</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,7 +16,9 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#myPage">${pageName}</a>
+            <a class="navbar-brand" href="#myPage">7xxx.club</a>
+            <a class="button border navbar-item" href="howto.html">How to Play</a>
+            <a class="button border navbar-item" href="#footer" data-toggle="modal" data-target="#how-it-works">How it Works</a>
         </div>
     </div>
 </nav>
@@ -25,11 +26,12 @@
 <div id="tour" class="bg-1">
     <div class="container">
         <div class="row text-center">
+            <h1>70% Chance to win on every game amount</h1>
             <div class="col-sm-4">
                 <div class="thumbnail">
                     <p><strong>1 Ether</strong></p>
                     <p># Participants</p>
-                    <p>Simply send 1 Ethereum to wallet <br> by Metamask or QR</p>
+                    <p>Simply send 1 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-1Eth">Send 1 Ether</button>
                     <p>1 Winner of <span class="label label-danger">2 Ethereum</span> <br>7 Winners x 1.25 Ethereum<br>unlucky players get 1
                         Wei</p>
@@ -39,7 +41,7 @@
                 <div class="thumbnail">
                     <p><strong>0.5 Ether</strong></p>
                     <p># Participants</p>
-                    <p>Simply send 0.5 Ethereum to wallet <br> by Metamask or QR</p>
+                    <p>Simply send 0.5 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-05Eth">Send 0.5 Ether</button>
                     <p>1 Winner of
                         <span class="label label-danger">1 Ethereum</span> <br>7 Winners x 0.625 Ethereum<br>unlucky players get 1 Wei</p>
@@ -49,15 +51,16 @@
                 <div class="thumbnail">
                     <p><strong>0.05 Ether</strong></p>
                     <p># Participants</p>
-                    <p>Simply send 0.05 Ethereum to wallet <br> by Metamask or QR</p>
+                    <p>Simply send 0.05 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-005Eth">Send 0.05 Ether</button>
-                    <p>1 Winner of <span class="label label-danger">0.1 Ethereum</span> <br>7 Winners x 0.0625 Ethereum<br>unlucky players get 1
+                    <p>1 Winner of <span class="label label-danger">0.1 Ethereum</span> <br>7 Winners x 0.0625 Ethereum<br>unlucky players get
+                        1
                         Wei</p>
                 </div>
             </div>
         </div>
         <div class="entry-section"><h2 class="text-center">Last Winners</h2>
-        <p class="text-center">Here you can check latest winners</p></div>
+            <p class="text-center">Here you can check latest winners</p></div>
         <ul class="list-group">
             <li class="list-group-item">
                 <p>Last round 1 Ethereum winners</p>
@@ -76,8 +79,38 @@
             </li>
         </ul>
     </div>
-
     <!-- Modal -->
+    <div class="modal fade" id="how-it-works" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4><span class="glyphicon glyphicon-info-sign"></span>HOW IT WORKS</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <p style="color: red;font-size: 1.1rem">10 Players enter raffle <br>Once the 10th player enters <br>
+                            <em style="color: green">1 Player chosen randomly gets double the game amount 1 - 2 ETH Win </em><br>
+                            <em style="color: darkorange">6 Players chosen randomly get to win the game amount multiplied by 1.25 (1 - 1.25
+                                ETH)</em><br>
+                            3 unlucky players get 1 Wei</p>
+                            <p>Everything is done by the contract there is only a emergency option to refund all currently in game players
+                            if funds get locked somehow</p>
+                            <p style="font-size: 1rem;">All participants agree on donating 5% of total raffle amount to developers of 7xxx
+                                .club</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="Modal-1Eth" role="dialog">
         <div class="modal-dialog">
 
@@ -90,13 +123,15 @@
                 <div class="modal-body">
                     <form role="form">
                         <div class="form-group">
-                            <label ><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
+                            <label><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
                                 style="color: orange;font-size: 1.5em">1
                                 Ethereum</em>
-                                with at least   <em style="color: orangered;font-size: 1.2em" class="glyphicon glyphicon-dashboard">250000gas
+                                with at least <em style="color: orangered;font-size: 1.2em" class="glyphicon glyphicon-dashboard">250000gas
                                 </em> or your transaction will <em class="text-danger">FAIL and gas spent</em></label>
-                            <code type="number" class="form-control p-3 mb-2 bg-warning text-dark" >0xe8abf2f63c88ca71506db5d099513c16990ce207</code>
-                            <p>Click <a href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">HERE</a> to see Contract in Etherscan</p>
+                            <code type="number"
+                                  class="form-control p-3 mb-2 bg-warning text-dark">0xe8abf2f63c88ca71506db5d099513c16990ce207</code>
+                            <p>Click <a href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">HERE</a> to see
+                                Contract in Etherscan</p>
                         </div>
                         <div class="form-group">
                             <label><span class="glyphicon glyphicon-qrcode"></span> Use QR</label>
@@ -109,7 +144,7 @@
                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
                         <span class="glyphicon glyphicon-remove"></span> Cancel
                     </button>
-                    <p style="color: orange">For security reasons wich contract uses for checkups  gas cost is higher than usual between
+                    <p style="color: orange">For security reasons wich contract uses for checkups gas cost is higher than usual between
                         address exchanges</p>
                 </div>
             </div>
@@ -127,12 +162,14 @@
                 <div class="modal-body">
                     <form role="form">
                         <div class="form-group">
-                            <label ><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
+                            <label><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
                                 style="color: orange;font-size: 1.5em">0.5 Ethereum </em>
                                 with at least <em style="color: orangered;font-size: 1.2em" class="glyphicon glyphicon-dashboard">250000gas
                                 </em> or your transaction will <em class="text-danger">FAIL and gas spent</em></label>
-                            <code type="number" class="form-control p-3 mb-2 bg-warning text-dark" ><a href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">0xe8abf2f63c88ca71506db5d099513c16990ce207</a></code>
-                            <p>Click <a href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">HERE</a> to see Contract in Etherscan</p>
+                            <code type="number" class="form-control p-3 mb-2 bg-warning text-dark"><a
+                                href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">0xe8abf2f63c88ca71506db5d099513c16990ce207</a></code>
+                            <p>Click <a href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">HERE</a> to see
+                                Contract in Etherscan</p>
                         </div>
                         <div class="form-group">
                             <label><span class="glyphicon glyphicon-qrcode"></span> Use QR</label>
@@ -145,7 +182,7 @@
                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
                         <span class="glyphicon glyphicon-remove"></span> Cancel
                     </button>
-                    <p style="color: orange">For security reasons wich contract uses for checkups  gas cost is higher than usual between
+                    <p style="color: orange">For security reasons wich contract uses for checkups gas cost is higher than usual between
                         address exchanges</p>
                 </div>
             </div>
@@ -162,12 +199,13 @@
                 <div class="modal-body">
                     <form role="form">
                         <div class="form-group">
-                            <label ><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
+                            <label><span class="glyphicon glyphicon-shopping-cart"></span> Please Send exactly <em
                                 style="color: orange;font-size: 1.5em">0.05
                                 Ethereum </em>
-                                with at least   <em style="color: orangered;font-size: 1.2em" class="glyphicon glyphicon-dashboard">250000gas
+                                with at least <em style="color: orangered;font-size: 1.2em" class="glyphicon glyphicon-dashboard">250000gas
                                 </em> or your transaction will <em class="text-danger">FAIL and gas spent</em></label>
-                            <code type="number" class="form-control p-3 mb-2 bg-warning text-dark" >0xe8abf2f63c88ca71506db5d099513c16990ce207</code>
+                            <code type="number"
+                                  class="form-control p-3 mb-2 bg-warning text-dark">0xe8abf2f63c88ca71506db5d099513c16990ce207</code>
                             <p class="text-success">Click <a
                                 href="https://ropsten.etherscan.io/address/0xE8ABF2f63c88cA71506DB5d099513C16990ce207">HERE</a> to
                                 see Contract in Etherscan</p>
@@ -183,7 +221,7 @@
                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
                         <span class="glyphicon glyphicon-remove"></span> Cancel
                     </button>
-                    <p style="color: orange">For security reasons wich contract uses for checkups  gas cost is higher than usual between
+                    <p style="color: orange">For security reasons wich contract uses for checkups gas cost is higher than usual between
                         address exchanges</p>
                 </div>
             </div>
@@ -191,10 +229,11 @@
     </div>
 </div>
 <footer>
-    <p>
-        <em style="color: green;">7xxx.club</em> owns itself.<br>It is an autonomous entity, executing as code on the Ethereum (ETH) P2P
+    <p  style="color: rgb(65, 133, 225);!important;" id="footer">
+        7xxx.club owns itself.<br>It is an autonomous entity, executing as code on the Ethereum (ETH) P2P
         network.<br>
-        It lives in the Ether; in the realm of ideas and magic.<br>Enjoy it.
+        It lives in the Ether; in the realm of freedom and privacy.<br>Enjoy it. <br>
+        <em style="color: rgb(65, 133, 225);!important;"><a href="https://en.wikipedia.org/wiki/Smart_contract">Powered by Ethereum Smart Contracts</a></em>
     </p>
 </footer>
 
