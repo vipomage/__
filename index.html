@@ -17,8 +17,8 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#myPage">7xxx.club</a>
-            <a class="button border navbar-item" href="howto.html">How to Play</a>
-            <a class="button border navbar-item" href="#footer" data-toggle="modal" data-target="#how-it-works">How it Works</a>
+            <a class="button border navbar-item"  data-toggle="modal" data-target="#how-to-play">How to Play</a>
+            <a class="button border navbar-item"  data-toggle="modal" data-target="#how-it-works">How it Works</a>
 
         </div>
     </div>
@@ -33,7 +33,7 @@
                     <p># Participants</p>
                     <p>Simply send 0.05 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-005Eth">Send 0.05 Ether</button>
-                    <p>1 Winner of <span class="label label-danger">0.1 Ethereum</span> <br>7 Winners x 0.0625 Ethereum<br>unlucky players get
+                    <p>1 Winner of <span class="label label-danger">0.1 Ethereum</span> <br>6 Winners x 0.0625 Ethereum<br>unlucky players get
                         1
                         Wei</p>
                 </div>
@@ -46,7 +46,7 @@
                     <p>Simply send 0.5 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-05Eth">Send 0.5 Ether</button>
                     <p>1 Winner of
-                        <span class="label label-danger">1 Ethereum</span> <br>7 Winners x 0.625 Ethereum<br>unlucky players get 1 Wei</p>
+                        <span class="label label-danger">1 Ethereum</span> <br>6 Winners x 0.625 Ethereum<br>unlucky players get 1 Wei</p>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@
                     <p># Participants</p>
                     <p>Simply send 1 Ethereum to wallet <br> or scan QR Code</p>
                     <button class="btn btn-success" data-toggle="modal" data-target="#Modal-1Eth">Send 1 Ether</button>
-                    <p>1 Winner of <span class="label label-danger">2 Ethereum</span> <br>7 Winners x 1.25 Ethereum<br>unlucky players get 1
+                    <p>1 Winner of <span class="label label-danger">2 Ethereum</span> <br>6 Winners x 1.25 Ethereum<br>unlucky players get 1
                         Wei</p>
                 </div>
             </div>
@@ -102,6 +102,29 @@
                             if funds get locked somehow</p>
                             <p style="font-size: 1rem;">All participants agree on donating 5% of total raffle amount to developers of 7xxx
                                 .club</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="how-to-play" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4><span class="glyphicon glyphicon-info-sign"></span>HOW TO PLAY</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <p>Pick a game mode between different amounts copy wallet address and send exact amount for chosen game</p>
                         </div>
                     </form>
                 </div>
@@ -231,11 +254,9 @@
     </div>
 </div>
 <footer>
-    <p  style="color: rgb(65, 133, 225);!important;" id="footer">
-        <span style="font-size: 35px;color: #999999">7xxx.club</span> owns itself.<br>It is an autonomous entity, executing as code on the Ethereum (ETH)
-        P2P
-        network.<br>
-        It lives in the Ether; in the realm of freedom and privacy.<br>Enjoy it. <br>
+    <p  style="color: rgb(65, 133, 225);!important;font-size: 1.1rem" id="footer">
+        <span style="font-size: 35px;color: #999999">7xxx.club</span><br>owns itself.It is an autonomous entity, executing as code on the
+        Ethereum (ETH) P2P network. It lives in the Ether; in the realm of freedom and privacy.<br>Enjoy it.<br>
         <em style="color: rgb(65, 133, 225);!important;"><a href="https://en.wikipedia.org/wiki/Smart_contract">Powered by Ethereum Smart Contracts</a></em>
     </p>
 </footer>
