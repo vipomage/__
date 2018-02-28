@@ -93,7 +93,8 @@ h3, h4 {
     }
 
 .bg-1 {
-    background: url("../img/p2pbg.jpg");
+    background: url("../img/red-grunge-sunrays.jpg");
+    background-size: cover;
     color: #BDBDBD;
     }
 
